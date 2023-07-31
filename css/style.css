@@ -1,0 +1,770 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: x-large;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: rgb(75, 90, 101);
+    align-items: center;
+}
+
+header img {
+    margin-left: 170px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    width: 3vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #3e4850;
+    border: 2px solid #3e4850;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    padding: 40px 10px 0px 10px;
+    align-content: center;
+    background-color: rgb(75, 90, 101);
+
+}
+
+.phone {
+    width: 38%;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.caja-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 45%;
+    color: white;
+    margin-top: 20px;
+}
+
+.caja-1 .parrafo-gris {
+    color: rgb(106, 114, 120);
+}
+
+.caja-1 h1 {
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+.request {
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+button {
+    width: 15vw;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: #376381;
+    background-color: #429dd5;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+}
+
+.request div {
+    border-bottom: 1px solid white;
+}
+
+.request div a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.marcas {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ededed;
+    padding: 20px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.marcas li {
+    list-style: none;
+}
+
+.info-tarjetas {
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-evenly;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+.tarjeta h1 {
+    color: #737f87;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.tarjeta p {
+    color: #d2d2d2;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #429dd5;
+    color: white;
+    border-radius: 5px;
+    border-color: #8db1d3;
+}
+
+.projects {
+    display: flex;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.projects section {
+    width: 100%;
+    display: flex;
+}
+
+.projects section img {
+    margin-right: 10px;
+    width: 2vw;
+}
+
+.projects section h2 {
+    color: #6d7a82;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects-imgs {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.twitter {
+    margin-right: 600px;
+}
+
+.titulos div {
+    display: flex;
+}
+
+.titulos h2 {
+    color: #6d7a82;
+}
+
+.titulos div img {
+    margin: 5px;
+    width: auto;
+}
+
+.art1 {
+    display: flex;
+}
+
+.art1 img {
+    margin: 0 0 20px;
+}
+
+.art1 p {
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.d1 p a {
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+
+.d2 a {
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+
+.img2_2 {
+    width: 125px;
+    height: 120px;
+    border: double;
+    margin: 6px 0 0 0;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+}
+
+.d1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 20px 0;
+}
+
+.d1 img{
+    height: 20vh;
+    width: 30%;
+}
+
+.d1 p {
+    padding: 0 0 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 19px;
+}
+
+.d1 a {
+    padding: 0 0 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+}
+
+.d1 h1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.art2 div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+}
+
+.art2 div p a {
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+}
+
+.link_twitter {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(37, 37, 255);
+    font-size: 17px;
+
+}
+
+.fecha {
+    color: rgba(75, 75, 75, 0.747);
+
+}
+
+.fecha1 {
+    padding: 0 0 20px 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #6d7a82;
+    padding: 20px;
+    margin: 100px;
+}
+
+.copy h2 {
+    color: #6d7a82;
+    font-size: 20px;
+}
+
+@media(max-width: 1279px) {
+
+    nav{
+        width: 60%;
+    }
+
+    header nav ul li {
+        margin-right: 95px;
+        font-size: 25px;
+    }
+
+    header img {
+        margin-left: 0px;
+        width: 20%;
+    }
+
+    .caja-1 {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .caja-1 p{
+        font-size: 15px;
+    }
+
+    .caja-1 h1{
+        font-size: 30px;
+    }
+
+    .request {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .request button {
+        width: 20vw;
+        height: 7vh;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .request div{
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .request img{
+        width: 10%;
+    }
+
+    .request div a{
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .phone img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .request {
+        width: 100%;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tarjeta{
+        text-align: center;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .projects h2{
+        font-size: 25px;
+    }
+    
+    .projects section img{
+        width: 5%;
+    }
+
+    .projects-imgs {
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+    }
+
+    .art4_s1 div p{
+        font-size: 15px;
+    }
+
+    .art4_s1 a{
+        font-size: 15px;
+    }
+
+    .art2{
+        margin-top: 20px;
+        border-top: 1px solid;
+    }
+
+    .art2 .art1{
+        margin-top: 10px;
+    }
+
+    .footer{
+        margin: 50px;
+    }
+
+
+}
+
+@media(max-width: 768px) {
+    nav {
+        width: 70%;
+    }
+
+    header img {
+        margin-left: 0px;
+        width: 20%;
+    }
+
+    header nav ul li {
+        margin-right: 65px;
+        font-size: 15px;
+    }
+
+    .caja-1 {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .caja-1 p{
+        font-size: 10px;
+    }
+
+    .caja-1 h1{
+        font-size: 15px;
+    }
+
+    .request {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .request button {
+        width: 16vw;
+        height: 5vh;
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .request div{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .request img{
+        width: 10%;
+    }
+
+    .request div a{
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .phone img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .marcas img{
+        width: 55%;
+    }
+
+    .tarjeta{
+        text-align: center;
+    }
+
+    .tarjeta img{
+        width: 65%;
+    }
+
+    .tarjeta h1{
+        font-size: 20px;
+    }
+
+    .tarjeta p{
+        font-size: 10px;
+    }
+
+    .tarjeta a{
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .projects h2{
+        font-size: 25px;
+    }
+    
+    .projects section img{
+        width: 5%;
+    }
+
+    .projects-imgs {
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+    }
+
+    .art4_s1 div p{
+        font-size: 12px;
+    }
+
+    .art4_s1 a{
+        font-size: 12px;
+    }
+
+    .art2{
+        margin-top: 20px;
+        border-top: 1px solid;
+    }
+
+    .art2 .art1{
+        margin-top: 10px;
+    }
+
+    .art2 div p{
+        font-size: 14px;
+    }
+
+    .container2 {
+        display: flex;
+        width: 100%;
+    }
+
+    .link_twitter {
+        margin-top: 60px;
+        font-size: 12px;
+    }
+
+    .footer{
+        margin: 30px;
+    }
+
+    .copy h2{
+        font-size: 15px;
+    }
+
+    .social img{
+        width: 15%;
+    }
+}
+
+@media(max-width: 480px) {
+    nav {
+        width: 70%;
+    }
+
+    header img {
+        margin-left: 0px;
+        width: 20%;
+    }
+
+    header nav ul li {
+        margin-right: 65px;
+        font-size: 15px;
+    }
+
+    .caja-1 {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .caja-1 p{
+        font-size: 10px;
+    }
+
+    .caja-1 h1{
+        font-size: 15px;
+    }
+
+    .request {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .request button {
+        width: 16vw;
+        height: 5vh;
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .request div{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .request img{
+        width: 10%;
+    }
+
+    .request div a{
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .phone img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .marcas img{
+        width: 55%;
+    }
+
+    .tarjeta{
+        text-align: center;
+    }
+
+    .tarjeta img{
+        width: 65%;
+    }
+
+    .tarjeta h1{
+        font-size: 20px;
+    }
+
+    .tarjeta p{
+        font-size: 10px;
+    }
+
+    .tarjeta a{
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .projects h2{
+        font-size: 25px;
+    }
+    
+    .projects section img{
+        width: 5%;
+    }
+
+    .projects-imgs {
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+    }
+
+    .art4_s1 div p{
+        font-size: 12px;
+    }
+
+    .art4_s1 a{
+        font-size: 12px;
+    }
+
+    .art2{
+        margin-top: 20px;
+        border-top: 1px solid;
+    }
+
+    .art2 .art1{
+        margin-top: 10px;
+    }
+
+    .art2 div p{
+        font-size: 14px;
+    }
+
+    .container2 {
+        display: flex;
+        width: 100%;
+    }
+
+    .link_twitter {
+        margin-top: 60px;
+        font-size: 12px;
+    }
+
+    .footer{
+        margin: 30px;
+    }
+
+    .copy h2{
+        font-size: 15px;
+    }
+
+    .social img{
+        width: 15%;
+    }
+
+    .container2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .d2 p{
+        font-size: 12px;
+    }
+
+    .d2 a{
+        font-size: 12px;
+    }
+
+    .art4_s1{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .art2{
+        border-top: 1px solid #6d7a82;
+        padding: 10px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .art2 div p{
+        font-size: 12px;
+    }
+
+    .link_twitter{
+        font-size: 12px;
+    }
+}
